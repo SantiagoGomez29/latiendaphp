@@ -53,3 +53,11 @@ Route::get('paises', function(){
        return view('paises')
        ->with('paises', $paises);
 });
+
+//Prueba Evidencia_02
+
+Route::get('prueba', function(){
+    
+    return view('productos.create');
+
+});
